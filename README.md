@@ -33,6 +33,9 @@ This is a project that simply reads URLs that are generated out of an HAR file, 
 [link](https://blog.stackpath.com/glossary/har-file/).
 
 
+![MacDown Screenshot](https://raw.githubusercontent.com/terrancemacgregor/har_api_research/master/fast_com_xhr_har_annotated.png)
+
+
 # License Agreement
 
 MIT License
