@@ -1,16 +1,12 @@
 # -*- coding: utf-8 -*-
 """har python reader
-
 Todo:
     * Build command line tool.
-
 Author: Terrance Macgregor
 License: MIT License
-
 """
 
 import json
-
 
 data = json.load(open('./sample_input/har_file_sample.json'))
 urls = []
