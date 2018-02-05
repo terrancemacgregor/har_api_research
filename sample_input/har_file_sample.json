@@ -1,0 +1,3560 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2018-02-05T04:18:42.327Z",
+        "id": "page_10",
+        "title": "http://fast.com/",
+        "pageTimings": {
+          "onContentLoad": 656.7839999916032,
+          "onLoad": 791.1960000055842
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2018-02-05T04:18:42.561Z",
+        "time": 3.5489999833516777,
+        "request": {
+          "method": "GET",
+          "url": "http://fast.com/",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 307,
+          "statusText": "Internal Redirect",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Location",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Non-Authoritative-Reason",
+              "value": "HSTS"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": 95
+          },
+          "redirectURL": "https://fast.com/",
+          "headersSize": 95,
+          "bodySize": -95,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.45000001834705,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 4.884981308350689e-15,
+          "receive": 3.098999965004623,
+          "_blocked_queueing": -1
+        },
+        "serverIPAddress": "",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:42.567Z",
+        "time": 154.22600000258535,
+        "request": {
+          "method": "GET",
+          "url": "https://fast.com/",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "upgrade-insecure-requests",
+              "value": "1"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+            },
+            {
+              "name": ":authority",
+              "value": "fast.com"
+            },
+            {
+              "name": "if-none-match",
+              "value": "\"cd9134734c69456c40804f5079a8850f\""
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "if-modified-since",
+              "value": "Wed, 29 Nov 2017 14:51:01 GMT"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Mon, 05 Feb 2018 04:18:42 GMT"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 29 Nov 2017 14:51:01 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "\"cd9134734c69456c40804f5079a8850f\""
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Language"
+            },
+            {
+              "name": "content-type",
+              "value": "text/html"
+            },
+            {
+              "name": "status",
+              "value": "304"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=2534"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 05 Feb 2018 05:00:56 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 17258,
+            "mimeType": "text/html"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 169
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.51399998180568,
+          "dns": 42.05799999181182,
+          "ssl": 35.862000018823906,
+          "connect": 92.98399998806421,
+          "send": 0.297999999020206,
+          "wait": 16.37200004188344,
+          "receive": 0,
+          "_blocked_queueing": -1
+        },
+        "serverIPAddress": "104.70.62.67",
+        "connection": "368192",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:42.578Z",
+        "time": 290.03991501417477,
+        "request": {
+          "method": "GET",
+          "url": "https://fast.com/app-54282a.css",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/app-54282a.css"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": ":authority",
+              "value": "fast.com"
+            },
+            {
+              "name": "referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Mon, 05 Feb 2018 04:18:42 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-amz-request-id",
+              "value": "AF4004F16274E159"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-length",
+              "value": "2136"
+            },
+            {
+              "name": "x-amz-id-2",
+              "value": "ZECjddqs2MQvHPj+DpP3psRKz+ZaVB9bVHOpWAjnim+5gyZgaSECt4TWe/oP3GPTd4APw6T01NM="
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 29 Nov 2017 14:36:26 GMT"
+            },
+            {
+              "name": "server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "etag",
+              "value": "\"c181f441c69ef85e400ea31ba718c969\""
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000"
+            },
+            {
+              "name": "content-language",
+              "value": "en"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=600158"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-type",
+              "value": "text/css"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 12 Feb 2018 03:01:20 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 10624,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 2455
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 90.33791496476624,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.26699999580159783,
+          "wait": 22.197000042069703,
+          "receive": 179.23800001153722,
+          "_blocked_queueing": 1.9150000298395753
+        },
+        "serverIPAddress": "104.70.62.67",
+        "connection": "368192",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:42.578Z",
+        "time": 300.3199780018185,
+        "request": {
+          "method": "GET",
+          "url": "https://fast.com/assets/fonts/oc-webfont.min.css",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/assets/fonts/oc-webfont.min.css"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": ":authority",
+              "value": "fast.com"
+            },
+            {
+              "name": "referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Mon, 05 Feb 2018 04:18:42 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-amz-request-id",
+              "value": "307A0BE90734961F"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-length",
+              "value": "347"
+            },
+            {
+              "name": "x-amz-id-2",
+              "value": "Uea+5FyIAz+oA9fZ9Dv9qBt9RPXdjAlu5zWou7gKDhVx0tV7ECBxdJw8/5Mem5gIK2Gji8QqI+w="
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 29 Nov 2017 14:36:27 GMT"
+            },
+            {
+              "name": "server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "etag",
+              "value": "\"6af0bd49f1dfa25a872db882e62e0231\""
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000"
+            },
+            {
+              "name": "content-language",
+              "value": "en"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=859569"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-type",
+              "value": "text/css"
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 15 Feb 2018 03:04:51 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 875,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 667
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 90.18597797147228,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.2150000073015974,
+          "wait": 27.944000030402094,
+          "receive": 183.97499999264255,
+          "_blocked_queueing": 1.9779999856837094
+        },
+        "serverIPAddress": "104.70.62.67",
+        "connection": "368192",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:42.578Z",
+        "time": 301.05795797513565,
+        "request": {
+          "method": "GET",
+          "url": "https://fast.com/app-9a70ea.js",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/app-9a70ea.js"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": ":authority",
+              "value": "fast.com"
+            },
+            {
+              "name": "referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Mon, 05 Feb 2018 04:18:42 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-amz-request-id",
+              "value": "9A691D61D39419BF"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-length",
+              "value": "18301"
+            },
+            {
+              "name": "x-amz-id-2",
+              "value": "EAShtZBKWKVswo4vRw4EQapu8BoOgQFbDrlj0OERsiAldcQ+AVt3WeMfFwabtUnd3FPPwhVeWrk="
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 29 Nov 2017 14:36:26 GMT"
+            },
+            {
+              "name": "server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "etag",
+              "value": "\"d4e483e76e13e0f647e7a624476b4063\""
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000"
+            },
+            {
+              "name": "content-language",
+              "value": "en"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=600237"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 12 Feb 2018 03:02:39 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 72761,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 18667
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 90.21995799749861,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.060000049415904755,
+          "wait": 37.004999991040705,
+          "receive": 175.77299993718043,
+          "_blocked_queueing": 1.9579999498091638
+        },
+        "serverIPAddress": "104.70.62.67",
+        "connection": "368192",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:42.886Z",
+        "time": 57.66339999274351,
+        "request": {
+          "method": "GET",
+          "url": "https://fast.com/assets/new-logo-vert-37861c.svg",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/assets/new-logo-vert-37861c.svg"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": ":authority",
+              "value": "fast.com"
+            },
+            {
+              "name": "referer",
+              "value": "https://fast.com/app-54282a.css"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Mon, 05 Feb 2018 04:18:42 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-amz-request-id",
+              "value": "494D06925B848320"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-length",
+              "value": "751"
+            },
+            {
+              "name": "x-amz-id-2",
+              "value": "Q2j2swDscfBeRX+HLPLoLvXzn9UVW+SDD6xy8ov06XsjvWG79iEXaH8tnubi8lj1BjZQY1SaK7s="
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 29 Nov 2017 14:36:28 GMT"
+            },
+            {
+              "name": "server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "etag",
+              "value": "\"4c754a44f0c2f23e5b07132f0b99dbc5\""
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000"
+            },
+            {
+              "name": "content-language",
+              "value": "en"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=1461169"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-type",
+              "value": "image/svg+xml"
+            },
+            {
+              "name": "expires",
+              "value": "Thu, 22 Feb 2018 02:11:31 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1590,
+            "mimeType": "image/svg+xml"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1075
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.714399954536929,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.27000001864507994,
+          "wait": 23.21800001664087,
+          "receive": 34.46100000292063,
+          "_blocked_queueing": 0.4000000189989805
+        },
+        "serverIPAddress": "104.70.62.67",
+        "connection": "368192",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:42.886Z",
+        "time": 32.064670006744564,
+        "request": {
+          "method": "GET",
+          "url": "https://fast.com/assets/fonts/fonts/oc-webfont.ttf?mv454s",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/assets/fonts/fonts/oc-webfont.ttf?mv454s"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": ":authority",
+              "value": "fast.com"
+            },
+            {
+              "name": "referer",
+              "value": "https://fast.com/assets/fonts/oc-webfont.min.css"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "mv454s",
+              "value": ""
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Mon, 05 Feb 2018 04:18:42 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-amz-request-id",
+              "value": "EDE5B2A5182018C6"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-length",
+              "value": "1322"
+            },
+            {
+              "name": "x-amz-id-2",
+              "value": "v1/h3a8tzhdLZHNidZPx00uFAZixO+RN7+h6HKTTeIKSjIYto2IxE0K66oILYlFy"
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 29 Nov 2017 14:36:27 GMT"
+            },
+            {
+              "name": "server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "etag",
+              "value": "\"46ffcefd92bfcbef70760ecbfa12d91c\""
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000"
+            },
+            {
+              "name": "content-language",
+              "value": "en"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=600182"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-type",
+              "value": "application/x-font-ttf"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 12 Feb 2018 03:01:44 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2092,
+            "mimeType": "application/x-font-ttf"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1641
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.9886700036004163,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.17499999376014008,
+          "wait": 19.937000004574656,
+          "receive": 11.96400000480935,
+          "_blocked_queueing": 0.6699999794363976
+        },
+        "serverIPAddress": "104.70.62.67",
+        "connection": "368192",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:42.887Z",
+        "time": 60.15732300753007,
+        "request": {
+          "method": "GET",
+          "url": "https://fast.com/assets/poweredby-865a3b.svg",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":path",
+              "value": "/assets/poweredby-865a3b.svg"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "accept-language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache"
+            },
+            {
+              "name": ":authority",
+              "value": "fast.com"
+            },
+            {
+              "name": "referer",
+              "value": "https://fast.com/app-54282a.css"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Mon, 05 Feb 2018 04:18:42 GMT"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-amz-request-id",
+              "value": "38A371FE3DACB3FB"
+            },
+            {
+              "name": "status",
+              "value": "200"
+            },
+            {
+              "name": "content-length",
+              "value": "1666"
+            },
+            {
+              "name": "x-amz-id-2",
+              "value": "OcMcdfuC5AFiV/8FkbgylKDMXEVj28T//ac4wsXHWK7JBim869HyA1ypQLhOtpfleIMIDkfzpS8="
+            },
+            {
+              "name": "last-modified",
+              "value": "Wed, 29 Nov 2017 14:36:28 GMT"
+            },
+            {
+              "name": "server",
+              "value": "AmazonS3"
+            },
+            {
+              "name": "etag",
+              "value": "\"72fdd0de18bc1887e1d8b2312b3ac65e\""
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000"
+            },
+            {
+              "name": "content-language",
+              "value": "en"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=1848369"
+            },
+            {
+              "name": "accept-ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "content-type",
+              "value": "image/svg+xml"
+            },
+            {
+              "name": "expires",
+              "value": "Mon, 26 Feb 2018 13:44:51 GMT"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 3952,
+            "mimeType": "image/svg+xml"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1990
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.8143230174318918,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.12199999764561009,
+          "wait": 22.26599998539314,
+          "receive": 37.955000007059425,
+          "_blocked_queueing": 0.32299995655193925
+        },
+        "serverIPAddress": "104.70.62.67",
+        "connection": "368192",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:43.054Z",
+        "time": 208.7654000467155,
+        "request": {
+          "method": "GET",
+          "url": "https://api.fast.com/netflix/speedtest?https=true&token=YXNkZmFzZGxmbnNkYWZoYXNkZmhrYWxm&urlCount=5",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "api.fast.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "https",
+              "value": "true"
+            },
+            {
+              "name": "token",
+              "value": "YXNkZmFzZGxmbnNkYWZoYXNkZmhrYWxm"
+            },
+            {
+              "name": "urlCount",
+              "value": "5"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 452,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:43 GMT"
+            },
+            {
+              "name": "Via",
+              "value": "1.1 i-0da1cb2880e870c7d (us-east-1)"
+            },
+            {
+              "name": "X-Netflix-From-Zuul",
+              "value": "true"
+            },
+            {
+              "name": "X-Netflix.proxy.execution-time",
+              "value": "59420"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "641"
+            },
+            {
+              "name": "X-Netflix.execution-time",
+              "value": "29"
+            },
+            {
+              "name": "Server",
+              "value": "api-prod i-038c205243044a027"
+            },
+            {
+              "name": "X-Netflix.server.utilization",
+              "value": "14"
+            },
+            {
+              "name": "X-Netflix.nfstatus",
+              "value": "1_1"
+            },
+            {
+              "name": "X-Originating-URL",
+              "value": "https://api.fast.com/netflix/speedtest?https=true&token=YXNkZmFzZGxmbnNkYWZoYXNkZmhrYWxm&urlCount=5"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "Via,X-Netflix.request.toplevel.uuid,X-Netflix.client.instance"
+            },
+            {
+              "name": "X-Robots-Tag",
+              "value": "noindex, nofollow"
+            },
+            {
+              "name": "X-Netflix.request.toplevel.uuid",
+              "value": "8e8049c3-e267-45be-8bab-55892db25d80-41640841"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "memclid=9859b1ef-7e9e-4cf7-9554-c41ee6a65eb6; Max-Age=31536000; Expires=Tue, 5 Feb 2019 04:18:43 GMT; Path=/; Domain=.netflix.com"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "nfvdid=BQFmAAEBEEl0sdgmX6a70RrW3Mx4hFdAzWuWM3f2U1vvOGPtA5wg6SO6dU%2FyD5uWk7AhOcFD4Zt%2BZNq007Gb5xJ42A2tiWUe9vn9MiCtLA5DWPlPw4oTJw%3D%3D; Max-Age=26265600; Expires=Thu, 6 Dec 2018 04:18:43 GMT; Path=/; Domain=.netflix.com"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json;charset=UTF-8"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "memclid",
+              "value": "9859b1ef-7e9e-4cf7-9554-c41ee6a65eb6",
+              "path": "/",
+              "domain": ".netflix.com",
+              "expires": "2019-02-05T04:18:43.055Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "nfvdid",
+              "value": "BQFmAAEBEEl0sdgmX6a70RrW3Mx4hFdAzWuWM3f2U1vvOGPtA5wg6SO6dU%2FyD5uWk7AhOcFD4Zt%2BZNq007Gb5xJ42A2tiWUe9vn9MiCtLA5DWPlPw4oTJw%3D%3D",
+              "path": "/",
+              "domain": ".netflix.com",
+              "expires": "2018-12-06T04:18:43.055Z",
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 641,
+            "mimeType": "application/json",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 1133,
+          "bodySize": 641,
+          "_transferSize": 1774
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 4.203399989521129,
+          "dns": 28.16600003279747,
+          "ssl": 37.406000017654506,
+          "connect": 96.67200001422287,
+          "send": 0.12500002048899717,
+          "wait": 78.60599999548906,
+          "receive": 0.9929999941959977,
+          "_blocked_queueing": 0.4000000189989805
+        },
+        "serverIPAddress": "52.73.117.19",
+        "connection": "368243",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:43.239Z",
+        "time": 102.70552596839848,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c092-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-2048?c=us&n=33657&v=3&e=1517807923&t=pMxQeRpucF5kptf7w9wVC8l4d2w",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c092-was001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "pMxQeRpucF5kptf7w9wVC8l4d2w"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 483,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:43 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60876;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2049"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2049,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 453,
+          "bodySize": 2049,
+          "_transferSize": 2502
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.903525985952005,
+          "dns": 17.31299998937179,
+          "ssl": 31.935999984852998,
+          "connect": 66.66300003416839,
+          "send": 0.14099996769800782,
+          "wait": 12.923000031150849,
+          "receive": 2.7619999600574374,
+          "_blocked_queueing": 0.5259999888949096
+        },
+        "serverIPAddress": "45.57.63.158",
+        "connection": "368253",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:43.328Z",
+        "time": 1740.372519007884,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c092-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=pMxQeRpucF5kptf7w9wVC8l4d2w",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c092-was001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "pMxQeRpucF5kptf7w9wVC8l4d2w"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:43 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60876;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "26214400"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 26214400,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 457,
+          "bodySize": 26214400,
+          "_transferSize": 26214857
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.7385190208442511,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.05799997597932993,
+          "wait": 11.850000009872018,
+          "receive": 1728.7260000011884,
+          "_blocked_queueing": 0.5189999938011169
+        },
+        "serverIPAddress": "45.57.63.158",
+        "connection": "368253",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:43.427Z",
+        "time": 158.2413830112783,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c068-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-2048?c=us&n=33657&v=3&e=1517807923&t=eR5CEW8PQd2mbYizZSFyxWQTSIc",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c068-was001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "eR5CEW8PQd2mbYizZSFyxWQTSIc"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 483,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:43 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60877;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2049"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2049,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 453,
+          "bodySize": 2049,
+          "_transferSize": 2502
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.0333829711307754,
+          "dns": 26.157999993301978,
+          "ssl": 40.8410000381988,
+          "connect": 99.35500001301997,
+          "send": 0.6280000088739968,
+          "wait": 25.35899996291802,
+          "receive": 3.708000062033534,
+          "_blocked_queueing": 2.3830000427551568
+        },
+        "serverIPAddress": "45.57.62.170",
+        "connection": "368267",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:43.562Z",
+        "time": 2855.860732989153,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c068-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=eR5CEW8PQd2mbYizZSFyxWQTSIc",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c068-was001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "eR5CEW8PQd2mbYizZSFyxWQTSIc"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:43 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60877;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "26214400"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 26214400,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 457,
+          "bodySize": 26214400,
+          "_transferSize": 26214857
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.7837329560425181,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.12100004823878008,
+          "wait": 39.625999983400106,
+          "receive": 2816.3300000014715,
+          "_blocked_queueing": 0.7329999934881926
+        },
+        "serverIPAddress": "45.57.62.170",
+        "connection": "368267",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:43.584Z",
+        "time": 272.0037740124389,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c239-atl001-ix.1.oca.nflxvideo.net/speedtest/range/0-2048?c=us&n=33657&v=3&e=1517807923&t=iZQ_W8ajF3uG3hBZw2VGxDnbBWc",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c239-atl001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "iZQ_W8ajF3uG3hBZw2VGxDnbBWc"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 483,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:43 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60878;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2049"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2049,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 453,
+          "bodySize": 2049,
+          "_transferSize": 2502
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 6.5497740339487835,
+          "dns": 50.82800000673155,
+          "ssl": 56.501999963074994,
+          "connect": 155.95200000098015,
+          "send": 0.12099999003100947,
+          "wait": 55.986999999731495,
+          "receive": 2.5659999810159206,
+          "_blocked_queueing": 1.7740000039339066
+        },
+        "serverIPAddress": "198.38.98.193",
+        "connection": "368281",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:43.809Z",
+        "time": 3243.7072789578233,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c239-atl001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=iZQ_W8ajF3uG3hBZw2VGxDnbBWc",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c239-atl001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "iZQ_W8ajF3uG3hBZw2VGxDnbBWc"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:43 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60878;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "26214400"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 26214400,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 457,
+          "bodySize": 26214400,
+          "_transferSize": 26214857
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.36627902206965,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.046000001020729986,
+          "wait": 39.07300002174452,
+          "receive": 3204.2219999129884,
+          "_blocked_queueing": 1.2789999600499868
+        },
+        "serverIPAddress": "198.38.98.193",
+        "connection": "368281",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:45.076Z",
+        "time": 2652.1836079768836,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c092-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=pMxQeRpucF5kptf7w9wVC8l4d2w",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c092-was001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "pMxQeRpucF5kptf7w9wVC8l4d2w"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:45 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60876;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "26214400"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 26214400,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 457,
+          "bodySize": 26214400,
+          "_transferSize": 26214857
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.098608026280999,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.04799995804205981,
+          "wait": 76.41200005309656,
+          "receive": 2575.624999939464,
+          "_blocked_queueing": 0.6079999729990959
+        },
+        "serverIPAddress": "45.57.63.158",
+        "connection": "368253",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:46.422Z",
+        "time": 2777.695463003358,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c068-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=eR5CEW8PQd2mbYizZSFyxWQTSIc",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c068-was001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "eR5CEW8PQd2mbYizZSFyxWQTSIc"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:46 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60877;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "26214400"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 26214400,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 457,
+          "bodySize": 26214400,
+          "_transferSize": 26214857
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 4.49946300103329,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.06200000643729986,
+          "wait": 63.188000000081956,
+          "receive": 2711.9459999958053,
+          "_blocked_queueing": 4.462999990209937
+        },
+        "serverIPAddress": "45.57.62.170",
+        "connection": "368267",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:47.056Z",
+        "time": 2803.4035960348556,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c239-atl001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=iZQ_W8ajF3uG3hBZw2VGxDnbBWc",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c239-atl001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "iZQ_W8ajF3uG3hBZw2VGxDnbBWc"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:47 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60878;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "26214400"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 26214400,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 457,
+          "bodySize": 26214400,
+          "_transferSize": 26214857
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.0025959830964006,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.07800001185386973,
+          "wait": 57.66400002175942,
+          "receive": 2744.659000018146,
+          "_blocked_queueing": 0.5959999980404973
+        },
+        "serverIPAddress": "198.38.98.193",
+        "connection": "368281",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:47.734Z",
+        "time": 2622.72385098628,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c092-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=pMxQeRpucF5kptf7w9wVC8l4d2w",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c092-was001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "pMxQeRpucF5kptf7w9wVC8l4d2w"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:47 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60876;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "26214400"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 24993792,
+            "mimeType": "application/octet-stream",
+            "compression": 4096
+          },
+          "redirectURL": "",
+          "headersSize": 457,
+          "bodySize": 24989696,
+          "_transferSize": 24990153,
+          "_error": "net::ERR_ABORTED"
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.8598510109004536,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.03100000321864993,
+          "wait": 74.64700000127777,
+          "receive": 2548.185999970883,
+          "_blocked_queueing": 0.8510000188834965
+        },
+        "serverIPAddress": "45.57.63.158",
+        "connection": "368253",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:49.204Z",
+        "time": 1153.0190739903483,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c068-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=eR5CEW8PQd2mbYizZSFyxWQTSIc",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c068-was001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "eR5CEW8PQd2mbYizZSFyxWQTSIc"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:49 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60877;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "26214400"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 11010048,
+            "mimeType": "application/octet-stream",
+            "compression": 16384
+          },
+          "redirectURL": "",
+          "headersSize": 457,
+          "bodySize": 10993664,
+          "_transferSize": 10994121,
+          "_error": "net::ERR_ABORTED"
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 6.048074002552315,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.044999993406229954,
+          "wait": 69.80699999257922,
+          "receive": 1079.1190000018105,
+          "_blocked_queueing": 1.0739999706856906
+        },
+        "serverIPAddress": "45.57.62.170",
+        "connection": "368267",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:49.864Z",
+        "time": 492.6399379822542,
+        "request": {
+          "method": "GET",
+          "url": "https://ipv4-c239-atl001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=iZQ_W8ajF3uG3hBZw2VGxDnbBWc",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ipv4-c239-atl001-ix.1.oca.nflxvideo.net"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "c",
+              "value": "us"
+            },
+            {
+              "name": "n",
+              "value": "33657"
+            },
+            {
+              "name": "v",
+              "value": "3"
+            },
+            {
+              "name": "e",
+              "value": "1517807923"
+            },
+            {
+              "name": "t",
+              "value": "iZQ_W8ajF3uG3hBZw2VGxDnbBWc"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 487,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:49 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 06 Jun 2017 17:16:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx"
+            },
+            {
+              "name": "Timing-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "X-Session-Info",
+              "value": "addr=73.213.193.133;port=60878;argp="
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Access-Control-Expose-Headers",
+              "value": "X-TCP-Info,X-Session-Info"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-store"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Content-Length",
+              "value": "26214400"
+            },
+            {
+              "name": "X-TCP-Info",
+              "value": "h0=0;h1=0;h2=0;h3=0;h4=0;"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 4329472,
+            "mimeType": "application/octet-stream",
+            "compression": 4096
+          },
+          "redirectURL": "",
+          "headersSize": 457,
+          "bodySize": 4325376,
+          "_transferSize": 4325833,
+          "_error": "net::ERR_ABORTED"
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.8059379964252025,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.05600001895800011,
+          "wait": 64.83499996829778,
+          "receive": 426.9429999985732,
+          "_blocked_queueing": 0.9379999828524888
+        },
+        "serverIPAddress": "198.38.98.193",
+        "connection": "368281",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:50.371Z",
+        "time": 595.570801004942,
+        "request": {
+          "method": "OPTIONS",
+          "url": "https://ichnaea.netflix.com/cl2",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Access-Control-Request-Method",
+              "value": "POST"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ichnaea.netflix.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Access-Control-Request-Headers",
+              "value": "content-type"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 443,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:50 GMT"
+            },
+            {
+              "name": "Via",
+              "value": "1.1 i-094313ed1768c4b62 (us-east-1)"
+            },
+            {
+              "name": "X-Netflix-From-Zuul",
+              "value": "true"
+            },
+            {
+              "name": "X-Netflix.proxy.execution-time",
+              "value": "4"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block; report=https://ichnaea.netflix.com/log/freeform/xssreport"
+            },
+            {
+              "name": "Server",
+              "value": "ichnaea i-0a6c026fcd03f46b9"
+            },
+            {
+              "name": "X-Netflix.nfstatus",
+              "value": "1_1"
+            },
+            {
+              "name": "Allow",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "X-Originating-URL",
+              "value": "https://ichnaea.netflix.com/cl2"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept",
+              "value": "text/plain, text/html"
+            },
+            {
+              "name": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/plain"
+            },
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 913,
+          "bodySize": 0,
+          "_transferSize": 913
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.4268010316300248,
+          "dns": 245.98000000696638,
+          "ssl": 57.585000002291,
+          "connect": 325.97399997757736,
+          "send": 0.10200001997901609,
+          "wait": 20.611000014468857,
+          "receive": 1.4769999543204904,
+          "_blocked_queueing": 0.8009999874047935
+        },
+        "serverIPAddress": "54.210.245.62",
+        "connection": "368334",
+        "pageref": "page_10"
+      },
+      {
+        "startedDateTime": "2018-02-05T04:18:50.722Z",
+        "time": 86.96297597978264,
+        "request": {
+          "method": "POST",
+          "url": "https://ichnaea.netflix.com/cl2",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "ichnaea.netflix.com"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36"
+            },
+            {
+              "name": "Content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Referer",
+              "value": "https://fast.com/"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "44274"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 440,
+          "bodySize": 44274,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"currentState\":{\"5893065663086002\":{\"source\":\"netspeed\",\"schema\":{\"name\":\"netflixApp\",\"version\":\"1.0.0\"},\"type\":[\"Log\",\"Session\"],\"id\":5893065663086002,\"sequence\":1,\"time\":1517804322967},\"5893065680231628\":{\"deviceType\":\"Browser\",\"appVersion\":\"5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36\",\"tester\":{\"version\":\"0.2.0\",\"maxAttempts\":10,\"maxConnections\":3,\"duration\":{\"min\":5,\"max\":30},\"progressFrequencyMs\":150,\"protocol\":\"https\",\"firstRequestBytes\":2048,\"maxBytesInFlight\":78643200,\"collectAfterComplete\":false,\"getTestOcasParams\":{\"https\":true,\"endpoint\":\"api.fast.com/netflix/speedtest\",\"token\":\"YXNkZmFzZGxmbnNkYWZoYXNkZmhrYWxm\",\"urlCount\":5},\"startRangeRequestTimeMs\":300,\"maxRangeRequestTimeMs\":1000,\"rangeRequestIncreaseMs\":200,\"measureLatency\":false,\"latencyMeasurementsWindowSize\":5,\"minLatencyMeasurements\":3,\"latencyMeasurementsFrequencyMs\":1000},\"referrer\":\"\",\"type\":[\"Client\"],\"id\":5893065680231628}},\"reverseDeltas\":[[2],[1],[1],[1],[{\"url\":\"https://ipv4-c092-was001-ix.1.oca.nflxvideo.net/speedtest/range/?c=us&n=33657&v=3&e=1517807923&t=pMxQeRpucF5kptf7w9wVC8l4d2w\",\"result\":\"success\",\"type\":[\"SessionEnded\"],\"id\":5893065837299178,\"sequence\":5,\"time\":1517804323237,\"duration\":267,\"sessionId\":5893065783096652},{\"https\":true,\"endpoint\":\"api.fast.com/netflix/speedtest\",\"token\":\"YXNkZmFzZGxmbnNkYWZoYXNkZmhrYWxm\",\"urlCount\":5,\"type\":[\"GetUrl\",\"Session\"],\"id\":5893065783096652,\"sequence\":4,\"time\":1517804322970},1],[1],[{\"oca\":\"ipv4-c092-was001-ix.1.oca.nflxvideo.net\",\"bytes\":2048,\"partialSuccess\":false,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"measurements\":[{\"bytes\":2049,\"start\":935.1000000024214,\"end\":1023.6000000149943},{\"bytes\":0,\"start\":1023.6000000149943,\"end\":1023.9999999757856}],\"id\":5893065906569863,\"sequence\":7,\"time\":1517804323327,\"duration\":90,\"sessionId\":5893065860890572},{\"oca\":\"ipv4-c092-was001-ix.1.oca.nflxvideo.net\",\"range\":2048,\"requestUrl\":\"https://ipv4-c092-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-2048?c=us&n=33657&v=3&e=1517807923&t=pMxQeRpucF5kptf7w9wVC8l4d2w\",\"type\":[\"Connection\",\"Session\"],\"id\":5893065860890572,\"sequence\":6,\"time\":1517804323237},1],[1],[1],[{\"url\":\"https://ipv4-c068-was001-ix.1.oca.nflxvideo.net/speedtest/range/?c=us&n=33657&v=3&e=1517807923&t=eR5CEW8PQd2mbYizZSFyxWQTSIc\",\"result\":\"success\",\"type\":[\"SessionEnded\"],\"id\":5893065994294969,\"sequence\":10,\"time\":1517804323425,\"duration\":0,\"sessionId\":5893065968115694},{\"https\":true,\"endpoint\":\"api.fast.com/netflix/speedtest\",\"token\":\"YXNkZmFzZGxmbnNkYWZoYXNkZmhrYWxm\",\"urlCount\":5,\"type\":[\"GetUrl\",\"Session\"],\"id\":5893065968115694,\"sequence\":9,\"time\":1517804323425},1],[1],[{\"oca\":\"ipv4-c068-was001-ix.1.oca.nflxvideo.net\",\"bytes\":2048,\"partialSuccess\":false,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"measurements\":[{\"bytes\":2049,\"start\":1122.6000000024214,\"end\":1257.4000000022352},{\"bytes\":0,\"start\":1257.4000000022352,\"end\":1257.500000006985}],\"id\":5893066069000070,\"sequence\":12,\"time\":1517804323561,\"duration\":136,\"sessionId\":5893066036369024},{\"oca\":\"ipv4-c068-was001-ix.1.oca.nflxvideo.net\",\"range\":2048,\"requestUrl\":\"https://ipv4-c068-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-2048?c=us&n=33657&v=3&e=1517807923&t=eR5CEW8PQd2mbYizZSFyxWQTSIc\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066036369024,\"sequence\":11,\"time\":1517804323425},1],[1],[1],[{\"url\":\"https://ipv4-c239-atl001-ix.1.oca.nflxvideo.net/speedtest/range/?c=us&n=33657&v=3&e=1517807923&t=iZQ_W8ajF3uG3hBZw2VGxDnbBWc\",\"result\":\"success\",\"type\":[\"SessionEnded\"],\"id\":5893066168846792,\"sequence\":15,\"time\":1517804323577,\"duration\":0,\"sessionId\":5893066140524632},{\"https\":true,\"endpoint\":\"api.fast.com/netflix/speedtest\",\"token\":\"YXNkZmFzZGxmbnNkYWZoYXNkZmhrYWxm\",\"urlCount\":5,\"type\":[\"GetUrl\",\"Session\"],\"id\":5893066140524632,\"sequence\":14,\"time\":1517804323577},1],[1],[{\"oca\":\"ipv4-c239-atl001-ix.1.oca.nflxvideo.net\",\"bytes\":2048,\"partialSuccess\":false,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"measurements\":[{\"bytes\":2049,\"start\":1274.8000000137836,\"end\":1504.1000000201166},{\"bytes\":0,\"start\":1504.1000000201166,\"end\":1504.2999999714084}],\"id\":5893066216336504,\"sequence\":17,\"time\":1517804323808,\"duration\":231,\"sessionId\":5893066186913289},{\"oca\":\"ipv4-c239-atl001-ix.1.oca.nflxvideo.net\",\"range\":2048,\"requestUrl\":\"https://ipv4-c239-atl001-ix.1.oca.nflxvideo.net/speedtest/range/0-2048?c=us&n=33657&v=3&e=1517807923&t=iZQ_W8ajF3uG3hBZw2VGxDnbBWc\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066186913289,\"sequence\":16,\"time\":1517804323577},1],[1],[{\"oca\":\"ipv4-c092-was001-ix.1.oca.nflxvideo.net\",\"bytes\":26214400,\"partialSuccess\":false,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"measurements\":[{\"bytes\":16384,\"start\":1024.9000000185333,\"end\":1042.699999990873},{\"bytes\":114688,\"start\":1042.699999990873,\"end\":1093.4000000124797},{\"bytes\":491520,\"start\":1093.4000000124797,\"end\":1144.7000000043772},{\"bytes\":884736,\"start\":1144.7000000043772,\"end\":1195.499999972526},{\"bytes\":970752,\"start\":1195.499999972526,\"end\":1246.099999989383},{\"bytes\":1404928,\"start\":1246.099999989383,\"end\":1296.6000000014901},{\"bytes\":1171456,\"start\":1296.6000000014901,\"end\":1347.3999999696389},{\"bytes\":1155072,\"start\":1347.3999999696389,\"end\":1397.5000000209548},{\"bytes\":1368064,\"start\":1397.5000000209548,\"end\":1447.7999999653548},{\"bytes\":1388544,\"start\":1447.7999999653548,\"end\":1498.0000000214204},{\"bytes\":1118208,\"start\":1498.0000000214204,\"end\":1548.1000000145286},{\"bytes\":974848,\"start\":1548.1000000145286,\"end\":1598.7999999779277},{\"bytes\":1114112,\"start\":1598.7999999779277,\"end\":1648.9999999757856},{\"bytes\":901120,\"start\":1648.9999999757856,\"end\":1699.0999999688938},{\"bytes\":1273856,\"start\":1699.0999999688938,\"end\":1749.2999999667518},{\"bytes\":851968,\"start\":1749.2999999667518,\"end\":1799.4000000180677},{\"bytes\":1040384,\"start\":1799.4000000180677,\"end\":1849.6000000159256},{\"bytes\":323584,\"start\":1849.6000000159256,\"end\":1899.9999999650754},{\"bytes\":757760,\"start\":1899.9999999650754,\"end\":1950.1000000163913},{\"bytes\":802816,\"start\":1950.1000000163913,\"end\":2000.3000000142492},{\"bytes\":217088,\"start\":2000.3000000142492,\"end\":2050.4000000073574},{\"bytes\":970752,\"start\":2050.4000000073574,\"end\":2100.6000000052154},{\"bytes\":311296,\"start\":2100.6000000052154,\"end\":2150.6999999983236},{\"bytes\":606208,\"start\":2150.6999999983236,\"end\":2200.8999999961816},{\"bytes\":507904,\"start\":2200.8999999961816,\"end\":2251.0999999940395},{\"bytes\":438272,\"start\":2251.0999999940395,\"end\":2301.1999999871477},{\"bytes\":589824,\"start\":2301.1999999871477,\"end\":2351.4999999897555},{\"bytes\":475136,\"start\":2351.4999999897555,\"end\":2401.6999999876134},{\"bytes\":589824,\"start\":2401.6999999876134,\"end\":2451.8999999854714},{\"bytes\":475136,\"start\":2451.8999999854714,\"end\":2502.0999999833293},{\"bytes\":503808,\"start\":2502.0999999833293,\"end\":2552.2999999811873},{\"bytes\":475136,\"start\":2552.2999999811873,\"end\":2602.4999999790452},{\"bytes\":585728,\"start\":2602.4999999790452,\"end\":2653.3000000054017},{\"bytes\":413696,\"start\":2653.3000000054017,\"end\":2703.700000012759},{\"bytes\":532480,\"start\":2703.700000012759,\"end\":2754.6999999904074},{\"bytes\":397312,\"start\":2754.6999999904074,\"end\":2770.9000000031665},{\"bytes\":0,\"start\":2770.9000000031665,\"end\":2770.9000000031665}],\"id\":5893066296013210,\"sequence\":19,\"time\":1517804325075,\"duration\":1748,\"sessionId\":5893065923544099},{\"oca\":\"ipv4-c092-was001-ix.1.oca.nflxvideo.net\",\"range\":26214400,\"requestUrl\":\"https://ipv4-c092-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=pMxQeRpucF5kptf7w9wVC8l4d2w\",\"type\":[\"Connection\",\"Session\"],\"id\":5893065923544099,\"sequence\":8,\"time\":1517804323327},1],[1],[{\"oca\":\"ipv4-c068-was001-ix.1.oca.nflxvideo.net\",\"bytes\":26214400,\"partialSuccess\":false,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"measurements\":[{\"bytes\":3639,\"start\":1258.0999999772757,\"end\":1303.3999999752268},{\"bytes\":45513,\"start\":1303.3999999752268,\"end\":1353.5999999730848},{\"bytes\":81920,\"start\":1353.5999999730848,\"end\":1403.699999966193},{\"bytes\":131072,\"start\":1403.699999966193,\"end\":1453.899999964051},{\"bytes\":163840,\"start\":1453.899999964051,\"end\":1505.5999999749474},{\"bytes\":393216,\"start\":1505.5999999749474,\"end\":1556.0999999870546},{\"bytes\":229376,\"start\":1556.0999999870546,\"end\":1607.799999997951},{\"bytes\":409600,\"start\":1607.799999997951,\"end\":1657.999999995809},{\"bytes\":458752,\"start\":1657.999999995809,\"end\":1708.8999999687076},{\"bytes\":466944,\"start\":1708.8999999687076,\"end\":1759.299999976065},{\"bytes\":442368,\"start\":1759.299999976065,\"end\":1809.3999999691732},{\"bytes\":442368,\"start\":1809.3999999691732,\"end\":1859.5999999670312},{\"bytes\":638976,\"start\":1859.5999999670312,\"end\":1909.7999999648891},{\"bytes\":962560,\"start\":1909.7999999648891,\"end\":1960.0000000209548},{\"bytes\":98304,\"start\":1960.0000000209548,\"end\":2010.3999999701045},{\"bytes\":892928,\"start\":2010.3999999701045,\"end\":2060.799999977462},{\"bytes\":638976,\"start\":2060.799999977462,\"end\":2110.89999997057},{\"bytes\":307200,\"start\":2110.89999997057,\"end\":2161.099999968428},{\"bytes\":970752,\"start\":2161.099999968428,\"end\":2211.399999971036},{\"bytes\":16384,\"start\":2211.399999971036,\"end\":2268.2999999960884},{\"bytes\":933888,\"start\":2268.2999999960884,\"end\":2318.9000000129454},{\"bytes\":131072,\"start\":2318.9000000129454,\"end\":2369.8999999905936},{\"bytes\":847872,\"start\":2369.8999999905936,\"end\":2420.0999999884516},{\"bytes\":180224,\"start\":2420.0999999884516,\"end\":2470.2999999863096},{\"bytes\":851968,\"start\":2470.2999999863096,\"end\":2520.4999999841675},{\"bytes\":131072,\"start\":2520.4999999841675,\"end\":2571.1000000010245},{\"bytes\":917504,\"start\":2571.1000000010245,\"end\":2621.2999999988824},{\"bytes\":180224,\"start\":2621.2999999988824,\"end\":2671.4999999967404},{\"bytes\":851968,\"start\":2671.4999999967404,\"end\":2722.399999969639},{\"bytes\":196608,\"start\":2722.399999969639,\"end\":2773.799999966286},{\"bytes\":819200,\"start\":2773.799999966286,\"end\":2824.1999999736436},{\"bytes\":290816,\"start\":2824.1999999736436,\"end\":2874.4999999762513},{\"bytes\":458752,\"start\":2874.4999999762513,\"end\":2925.3000000026077},{\"bytes\":491520,\"start\":2925.3000000026077,\"end\":2975.399999995716},{\"bytes\":737280,\"start\":2975.399999995716,\"end\":3025.8000000030734},{\"bytes\":221184,\"start\":3025.8000000030734,\"end\":3075.8999999961816},{\"bytes\":655360,\"start\":3075.8999999961816,\"end\":3126.0999999940395},{\"bytes\":319488,\"start\":3126.0999999940395,\"end\":3176.800000015646},{\"bytes\":376832,\"start\":3176.800000015646,\"end\":3227.100000018254},{\"bytes\":618496,\"start\":3227.100000018254,\"end\":3278.200000000652},{\"bytes\":278528,\"start\":3278.200000000652,\"end\":3328.700000012759},{\"bytes\":643072,\"start\":3328.700000012759,\"end\":3378.8000000058673},{\"bytes\":180224,\"start\":3378.8000000058673,\"end\":3429.8999999882653},{\"bytes\":851968,\"start\":3429.8999999882653,\"end\":3480.299999995623},{\"bytes\":344064,\"start\":3480.299999995623,\"end\":3530.4999999934807},{\"bytes\":688128,\"start\":3530.4999999934807,\"end\":3580.900000000838},{\"bytes\":233472,\"start\":3580.900000000838,\"end\":3631.099999998696},{\"bytes\":802816,\"start\":3631.099999998696,\"end\":3681.299999996554},{\"bytes\":98304,\"start\":3681.299999996554,\"end\":3732.1999999694526},{\"bytes\":933888,\"start\":3732.1999999694526,\"end\":3782.3999999673106},{\"bytes\":196608,\"start\":3782.3999999673106,\"end\":3832.5999999651685},{\"bytes\":819200,\"start\":3832.5999999651685,\"end\":3882.7000000164844},{\"bytes\":294912,\"start\":3882.7000000164844,\"end\":3933.199999970384},{\"bytes\":737280,\"start\":3933.199999970384,\"end\":3983.399999968242},{\"bytes\":233472,\"start\":3983.399999968242,\"end\":4033.5999999661},{\"bytes\":753664,\"start\":4033.5999999661,\"end\":4083.799999963958},{\"bytes\":118784,\"start\":4083.799999963958,\"end\":4117.800000007264},{\"bytes\":0,\"start\":4117.800000007264,\"end\":4117.800000007264}],\"id\":5893066356470636,\"sequence\":21,\"time\":1517804326421,\"duration\":2860,\"sessionId\":5893066079554448},{\"oca\":\"ipv4-c068-was001-ix.1.oca.nflxvideo.net\",\"range\":26214400,\"requestUrl\":\"https://ipv4-c068-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=eR5CEW8PQd2mbYizZSFyxWQTSIc\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066079554448,\"sequence\":13,\"time\":1517804323561},1],[1],[{\"oca\":\"ipv4-c239-atl001-ix.1.oca.nflxvideo.net\",\"bytes\":26214400,\"partialSuccess\":false,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"measurements\":[{\"bytes\":16384,\"start\":1504.8999999999069,\"end\":1576.0000000009313},{\"bytes\":16384,\"start\":1576.0000000009313,\"end\":1629.8999999999069},{\"bytes\":16384,\"start\":1629.8999999999069,\"end\":1679.999999993015},{\"bytes\":81920,\"start\":1679.999999993015,\"end\":1730.199999990873},{\"bytes\":131072,\"start\":1730.199999990873,\"end\":1780.4999999934807},{\"bytes\":163840,\"start\":1780.4999999934807,\"end\":1830.7999999960884},{\"bytes\":16384,\"start\":1830.7999999960884,\"end\":1886.3000000128523},{\"bytes\":229376,\"start\":1886.3000000128523,\"end\":1936.60000001546},{\"bytes\":278528,\"start\":1936.60000001546,\"end\":1986.9000000180677},{\"bytes\":16384,\"start\":1986.9000000180677,\"end\":2037.0000000111759},{\"bytes\":458752,\"start\":2037.0000000111759,\"end\":2087.699999974575},{\"bytes\":491520,\"start\":2087.699999974575,\"end\":2139.3999999854714},{\"bytes\":57344,\"start\":2139.3999999854714,\"end\":2189.699999988079},{\"bytes\":946176,\"start\":2189.699999988079,\"end\":2239.899999985937},{\"bytes\":16384,\"start\":2239.899999985937,\"end\":2299.4999999646097},{\"bytes\":909312,\"start\":2299.4999999646097,\"end\":2349.6000000159256},{\"bytes\":16384,\"start\":2349.6000000159256,\"end\":2399.9000000185333},{\"bytes\":929792,\"start\":2399.9000000185333,\"end\":2450.200000021141},{\"bytes\":16384,\"start\":2450.200000021141,\"end\":2506.8999999784864},{\"bytes\":946176,\"start\":2506.8999999784864,\"end\":2556.9999999715947},{\"bytes\":16384,\"start\":2556.9999999715947,\"end\":2611.0999999800697},{\"bytes\":884736,\"start\":2611.0999999800697,\"end\":2661.2999999779277},{\"bytes\":65536,\"start\":2661.2999999779277,\"end\":2716.2999999709427},{\"bytes\":962560,\"start\":2716.2999999709427,\"end\":2766.6999999783},{\"bytes\":262144,\"start\":2766.6999999783,\"end\":2817.0999999856576},{\"bytes\":770048,\"start\":2817.0999999856576,\"end\":2867.7000000025146},{\"bytes\":16384,\"start\":2867.7000000025146,\"end\":2932.700000004843},{\"bytes\":995328,\"start\":2932.700000004843,\"end\":2982.900000002701},{\"bytes\":196608,\"start\":2982.900000002701,\"end\":3033.400000014808},{\"bytes\":856064,\"start\":3033.400000014808,\"end\":3083.9999999734573},{\"bytes\":16384,\"start\":3083.9999999734573,\"end\":3142.8999999770895},{\"bytes\":1011712,\"start\":3142.8999999770895,\"end\":3193.599999998696},{\"bytes\":32768,\"start\":3193.599999998696,\"end\":3252.0999999833293},{\"bytes\":1003520,\"start\":3252.0999999833293,\"end\":3302.399999985937},{\"bytes\":32768,\"start\":3302.399999985937,\"end\":3359.500000020489},{\"bytes\":999424,\"start\":3359.500000020489,\"end\":3409.700000018347},{\"bytes\":49152,\"start\":3409.700000018347,\"end\":3459.900000016205},{\"bytes\":991232,\"start\":3459.900000016205,\"end\":3510.3999999701045},{\"bytes\":16384,\"start\":3510.3999999701045,\"end\":3562.8000000142492},{\"bytes\":1015808,\"start\":3562.8000000142492,\"end\":3613.000000012107},{\"bytes\":16384,\"start\":3613.000000012107,\"end\":3663.799999980256},{\"bytes\":778240,\"start\":3663.799999980256,\"end\":3713.999999978114},{\"bytes\":237568,\"start\":3713.999999978114,\"end\":3763.9999999664724},{\"bytes\":294912,\"start\":3763.9999999664724,\"end\":3814.29999996908},{\"bytes\":737280,\"start\":3814.29999996908,\"end\":3864.599999971688},{\"bytes\":282624,\"start\":3864.599999971688,\"end\":3914.8999999742955},{\"bytes\":753664,\"start\":3914.8999999742955,\"end\":3965.0999999721535},{\"bytes\":212992,\"start\":3965.0999999721535,\"end\":4015.5999999842606},{\"bytes\":823296,\"start\":4015.5999999842606,\"end\":4065.699999977369},{\"bytes\":16384,\"start\":4065.699999977369,\"end\":4117.599999997765},{\"bytes\":1024000,\"start\":4117.599999997765,\"end\":4167.9000000003725},{\"bytes\":131072,\"start\":4167.9000000003725,\"end\":4218.0999999982305},{\"bytes\":913408,\"start\":4218.0999999982305,\"end\":4268.600000010338},{\"bytes\":98304,\"start\":4268.600000010338,\"end\":4318.700000003446},{\"bytes\":917504,\"start\":4318.700000003446,\"end\":4369.000000006054},{\"bytes\":118784,\"start\":4369.000000006054,\"end\":4419.300000008661},{\"bytes\":786432,\"start\":4419.300000008661,\"end\":4469.700000016019},{\"bytes\":180224,\"start\":4469.700000016019,\"end\":4519.800000009127},{\"bytes\":786432,\"start\":4519.800000009127,\"end\":4569.799999997485},{\"bytes\":143360,\"start\":4569.799999997485,\"end\":4619.999999995343},{\"bytes\":802816,\"start\":4619.999999995343,\"end\":4670.199999993201},{\"bytes\":131072,\"start\":4670.199999993201,\"end\":4720.29999998631},{\"bytes\":77824,\"start\":4720.29999998631,\"end\":4752.199999988079},{\"bytes\":0,\"start\":4752.199999988079,\"end\":4752.199999988079}],\"id\":5893066424819213,\"sequence\":23,\"time\":1517804327056,\"duration\":3248,\"sessionId\":5893066256403879},{\"oca\":\"ipv4-c239-atl001-ix.1.oca.nflxvideo.net\",\"range\":26214400,\"requestUrl\":\"https://ipv4-c239-atl001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=iZQ_W8ajF3uG3hBZw2VGxDnbBWc\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066256403879,\"sequence\":18,\"time\":1517804323808},1],[1],[{\"oca\":\"ipv4-c092-was001-ix.1.oca.nflxvideo.net\",\"bytes\":26214400,\"partialSuccess\":false,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"measurements\":[{\"bytes\":3639,\"start\":2772.100000001956,\"end\":2855.8000000193715},{\"bytes\":1028553,\"start\":2855.8000000193715,\"end\":2906.299999973271},{\"bytes\":16384,\"start\":2906.299999973271,\"end\":2961.200000019744},{\"bytes\":1015808,\"start\":2961.200000019744,\"end\":3011.400000017602},{\"bytes\":212992,\"start\":3011.400000017602,\"end\":3061.60000001546},{\"bytes\":823296,\"start\":3061.60000001546,\"end\":3111.700000008568},{\"bytes\":196608,\"start\":3111.700000008568,\"end\":3161.8000000016764},{\"bytes\":802816,\"start\":3161.8000000016764,\"end\":3212.4999999650754},{\"bytes\":270336,\"start\":3212.4999999650754,\"end\":3262.9999999771826},{\"bytes\":638976,\"start\":3262.9999999771826,\"end\":3313.099999970291},{\"bytes\":348160,\"start\":3313.099999970291,\"end\":3363.3999999728985},{\"bytes\":671744,\"start\":3363.3999999728985,\"end\":3417.699999990873},{\"bytes\":274432,\"start\":3417.699999990873,\"end\":3468.5000000172295},{\"bytes\":786432,\"start\":3468.5000000172295,\"end\":3518.6000000103377},{\"bytes\":270336,\"start\":3518.6000000103377,\"end\":3568.700000003446},{\"bytes\":655360,\"start\":3568.700000003446,\"end\":3618.900000001304},{\"bytes\":364544,\"start\":3618.900000001304,\"end\":3668.999999994412},{\"bytes\":622592,\"start\":3668.999999994412,\"end\":3719.19999999227},{\"bytes\":348160,\"start\":3719.19999999227,\"end\":3769.4999999948777},{\"bytes\":851968,\"start\":3769.4999999948777,\"end\":3819.599999987986},{\"bytes\":110592,\"start\":3819.599999987986,\"end\":3869.699999981094},{\"bytes\":983040,\"start\":3869.699999981094,\"end\":3919.7999999742024},{\"bytes\":12288,\"start\":3919.7999999742024,\"end\":3969.9999999720603},{\"bytes\":933888,\"start\":3969.9999999720603,\"end\":4020.299999974668},{\"bytes\":61440,\"start\":4020.299999974668,\"end\":4071.200000005774},{\"bytes\":966656,\"start\":4071.200000005774,\"end\":4121.500000008382},{\"bytes\":630784,\"start\":4121.500000008382,\"end\":4171.80000001099},{\"bytes\":475136,\"start\":4171.80000001099,\"end\":4224.099999992177},{\"bytes\":421888,\"start\":4224.099999992177,\"end\":4274.199999985285},{\"bytes\":585728,\"start\":4274.199999985285,\"end\":4325.299999967683},{\"bytes\":393216,\"start\":4325.299999967683,\"end\":4375.499999965541},{\"bytes\":638976,\"start\":4375.499999965541,\"end\":4425.699999963399},{\"bytes\":229376,\"start\":4425.699999963399,\"end\":4475.900000019465},{\"bytes\":806912,\"start\":4475.900000019465,\"end\":4526.100000017323},{\"bytes\":241664,\"start\":4526.100000017323,\"end\":4576.699999975972},{\"bytes\":811008,\"start\":4576.699999975972,\"end\":4626.99999997858},{\"bytes\":253952,\"start\":4626.99999997858,\"end\":4677.099999971688},{\"bytes\":786432,\"start\":4677.099999971688,\"end\":4727.299999969546},{\"bytes\":897024,\"start\":4727.299999969546,\"end\":4777.5999999721535},{\"bytes\":139264,\"start\":4777.5999999721535,\"end\":4827.699999965262},{\"bytes\":753664,\"start\":4827.699999965262,\"end\":4877.999999967869},{\"bytes\":364544,\"start\":4877.999999967869,\"end\":4928.299999970477},{\"bytes\":524288,\"start\":4928.299999970477,\"end\":4978.499999968335},{\"bytes\":413696,\"start\":4978.499999968335,\"end\":5028.8999999756925},{\"bytes\":16384,\"start\":5028.8999999756925,\"end\":5089.099999982864},{\"bytes\":1015808,\"start\":5089.099999982864,\"end\":5139.299999980722},{\"bytes\":233472,\"start\":5139.299999980722,\"end\":5189.699999988079},{\"bytes\":802816,\"start\":5189.699999988079,\"end\":5240.300000004936},{\"bytes\":253952,\"start\":5240.300000004936,\"end\":5290.399999998044},{\"bytes\":786432,\"start\":5290.399999998044,\"end\":5342.000000004191},{\"bytes\":147456,\"start\":5342.000000004191,\"end\":5392.999999981839},{\"bytes\":319488,\"start\":5392.999999981839,\"end\":5428.599999984726},{\"bytes\":0,\"start\":5428.599999984726,\"end\":5428.599999984726}],\"id\":5893066498792868,\"sequence\":25,\"time\":1517804327733,\"duration\":2658,\"sessionId\":5893066313266748},{\"oca\":\"ipv4-c092-was001-ix.1.oca.nflxvideo.net\",\"range\":26214400,\"requestUrl\":\"https://ipv4-c092-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=pMxQeRpucF5kptf7w9wVC8l4d2w\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066313266748,\"sequence\":20,\"time\":1517804325075},1],[1],[{\"oca\":\"ipv4-c068-was001-ix.1.oca.nflxvideo.net\",\"bytes\":26214400,\"partialSuccess\":false,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"measurements\":[{\"bytes\":32768,\"start\":4118.299999972805,\"end\":4193.299999984447},{\"bytes\":999424,\"start\":4193.299999984447,\"end\":4243.399999977555},{\"bytes\":32768,\"start\":4243.399999977555,\"end\":4293.499999970663},{\"bytes\":999424,\"start\":4293.499999970663,\"end\":4344.19999999227},{\"bytes\":16384,\"start\":4344.19999999227,\"end\":4397.999999986496},{\"bytes\":1019904,\"start\":4397.999999986496,\"end\":4448.199999984354},{\"bytes\":16384,\"start\":4448.199999984354,\"end\":4501.89999997383},{\"bytes\":995328,\"start\":4501.89999997383,\"end\":4551.999999966938},{\"bytes\":16384,\"start\":4551.999999966938,\"end\":4603.100000007544},{\"bytes\":1011712,\"start\":4603.100000007544,\"end\":4653.400000010151},{\"bytes\":4096,\"start\":4653.400000010151,\"end\":4708.700000017416},{\"bytes\":1019904,\"start\":4708.700000017416,\"end\":4759.4999999855645},{\"bytes\":851968,\"start\":4759.4999999855645,\"end\":4809.799999988172},{\"bytes\":180224,\"start\":4809.799999988172,\"end\":4859.99999998603},{\"bytes\":696320,\"start\":4859.99999998603,\"end\":4910.099999979138},{\"bytes\":327680,\"start\":4910.099999979138,\"end\":4960.299999976996},{\"bytes\":557056,\"start\":4960.299999976996,\"end\":5010.499999974854},{\"bytes\":475136,\"start\":5010.499999974854,\"end\":5060.699999972712},{\"bytes\":32768,\"start\":5060.699999972712,\"end\":5126.400000008289},{\"bytes\":987136,\"start\":5126.400000008289,\"end\":5176.600000006147},{\"bytes\":16384,\"start\":5176.600000006147,\"end\":5228.899999987334},{\"bytes\":1015808,\"start\":5228.899999987334,\"end\":5279.199999989942},{\"bytes\":16384,\"start\":5279.199999989942,\"end\":5330.599999986589},{\"bytes\":1028096,\"start\":5330.599999986589,\"end\":5380.799999984447},{\"bytes\":81920,\"start\":5380.799999984447,\"end\":5430.899999977555},{\"bytes\":958464,\"start\":5430.899999977555,\"end\":5481.099999975413},{\"bytes\":159744,\"start\":5481.099999975413,\"end\":5531.4999999827705},{\"bytes\":868352,\"start\":5531.4999999827705,\"end\":5581.799999985378},{\"bytes\":135168,\"start\":5581.799999985378,\"end\":5631.999999983236},{\"bytes\":851968,\"start\":5631.999999983236,\"end\":5682.299999985844},{\"bytes\":135168,\"start\":5682.299999985844,\"end\":5732.599999988452},{\"bytes\":753664,\"start\":5732.599999988452,\"end\":5782.999999995809},{\"bytes\":180224,\"start\":5782.999999995809,\"end\":5833.099999988917},{\"bytes\":753664,\"start\":5833.099999988917,\"end\":5883.1999999820255},{\"bytes\":163840,\"start\":5883.1999999820255,\"end\":5933.399999979883},{\"bytes\":753664,\"start\":5933.399999979883,\"end\":5983.499999972992},{\"bytes\":212992,\"start\":5983.499999972992,\"end\":6033.799999975599},{\"bytes\":475136,\"start\":6033.799999975599,\"end\":6083.999999973457},{\"bytes\":557056,\"start\":6083.999999973457,\"end\":6134.699999995064},{\"bytes\":77824,\"start\":6134.699999995064,\"end\":6185.200000007171},{\"bytes\":925696,\"start\":6185.200000007171,\"end\":6235.500000009779},{\"bytes\":16384,\"start\":6235.500000009779,\"end\":6294.500000018161},{\"bytes\":1015808,\"start\":6294.500000018161,\"end\":6344.700000016019},{\"bytes\":16384,\"start\":6344.700000016019,\"end\":6427.299999981187},{\"bytes\":1015808,\"start\":6427.299999981187,\"end\":6477.699999988545},{\"bytes\":65536,\"start\":6477.699999988545,\"end\":6531.299999973271},{\"bytes\":950272,\"start\":6531.299999973271,\"end\":6581.999999994878},{\"bytes\":16384,\"start\":6581.999999994878,\"end\":6632.999999972526},{\"bytes\":1019904,\"start\":6632.999999972526,\"end\":6683.299999975134},{\"bytes\":32768,\"start\":6683.299999975134,\"end\":6742.399999988265},{\"bytes\":1003520,\"start\":6742.399999988265,\"end\":6792.599999986123},{\"bytes\":16384,\"start\":6792.599999986123,\"end\":6863.199999963399},{\"bytes\":651264,\"start\":6863.199999963399,\"end\":6899.700000009034},{\"bytes\":0,\"start\":6899.700000009034,\"end\":6899.700000009034}],\"id\":5893066569942296,\"sequence\":27,\"time\":1517804329203,\"duration\":2782,\"sessionId\":5893066394967579},{\"oca\":\"ipv4-c068-was001-ix.1.oca.nflxvideo.net\",\"range\":26214400,\"requestUrl\":\"https://ipv4-c068-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=eR5CEW8PQd2mbYizZSFyxWQTSIc\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066394967579,\"sequence\":22,\"time\":1517804326421},1],[1],[{\"oca\":\"ipv4-c239-atl001-ix.1.oca.nflxvideo.net\",\"bytes\":26214400,\"partialSuccess\":false,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"measurements\":[{\"bytes\":16384,\"start\":4752.600000007078,\"end\":4816.799999971408},{\"bytes\":1015808,\"start\":4816.799999971408,\"end\":4867.299999983516},{\"bytes\":16384,\"start\":4867.299999983516,\"end\":4923.999999999069},{\"bytes\":1032192,\"start\":4923.999999999069,\"end\":4974.199999996927},{\"bytes\":16384,\"start\":4974.199999996927,\"end\":5030.80000000773},{\"bytes\":778240,\"start\":5030.80000000773,\"end\":5081.000000005588},{\"bytes\":229376,\"start\":5081.000000005588,\"end\":5131.099999998696},{\"bytes\":380928,\"start\":5131.099999998696,\"end\":5181.700000015553},{\"bytes\":671744,\"start\":5181.700000015553,\"end\":5231.900000013411},{\"bytes\":352256,\"start\":5231.900000013411,\"end\":5281.9000000017695},{\"bytes\":671744,\"start\":5281.9000000017695,\"end\":5332.200000004377},{\"bytes\":352256,\"start\":5332.200000004377,\"end\":5382.400000002235},{\"bytes\":688128,\"start\":5382.400000002235,\"end\":5432.499999995343},{\"bytes\":339968,\"start\":5432.499999995343,\"end\":5482.699999993201},{\"bytes\":647168,\"start\":5482.699999993201,\"end\":5532.79999998631},{\"bytes\":262144,\"start\":5532.79999998631,\"end\":5582.9999999841675},{\"bytes\":684032,\"start\":5582.9999999841675,\"end\":5633.399999991525},{\"bytes\":327680,\"start\":5633.399999991525,\"end\":5683.499999984633},{\"bytes\":659456,\"start\":5683.499999984633,\"end\":5733.599999977741},{\"bytes\":16384,\"start\":5733.599999977741,\"end\":5792.699999990873},{\"bytes\":1015808,\"start\":5792.699999990873,\"end\":5843.0999999982305},{\"bytes\":49152,\"start\":5843.0999999982305,\"end\":5893.999999971129},{\"bytes\":999424,\"start\":5893.999999971129,\"end\":5944.299999973737},{\"bytes\":16384,\"start\":5944.299999973737,\"end\":5999.20000002021},{\"bytes\":1015808,\"start\":5999.20000002021,\"end\":6049.400000018068},{\"bytes\":32768,\"start\":6049.400000018068,\"end\":6113.199999963399},{\"bytes\":991232,\"start\":6113.199999963399,\"end\":6163.400000019465},{\"bytes\":32768,\"start\":6163.400000019465,\"end\":6224.600000015926},{\"bytes\":983040,\"start\":6224.600000015926,\"end\":6274.800000013784},{\"bytes\":16384,\"start\":6274.800000013784,\"end\":6346.399999980349},{\"bytes\":1011712,\"start\":6346.399999980349,\"end\":6396.599999978207},{\"bytes\":32768,\"start\":6396.599999978207,\"end\":6468.20000000298},{\"bytes\":1007616,\"start\":6468.20000000298,\"end\":6518.600000010338},{\"bytes\":98304,\"start\":6518.600000010338,\"end\":6568.700000003446},{\"bytes\":925696,\"start\":6568.700000003446,\"end\":6618.799999996554},{\"bytes\":65536,\"start\":6618.799999996554,\"end\":6674.699999974109},{\"bytes\":958464,\"start\":6674.699999974109,\"end\":6725.099999981467},{\"bytes\":16384,\"start\":6725.099999981467,\"end\":6791.900000011083},{\"bytes\":1003520,\"start\":6791.900000011083,\"end\":6842.100000008941},{\"bytes\":16384,\"start\":6842.100000008941,\"end\":6900.699999998324},{\"bytes\":1007616,\"start\":6900.699999998324,\"end\":6951.000000000931},{\"bytes\":16384,\"start\":6951.000000000931,\"end\":7013.199999986682},{\"bytes\":1015808,\"start\":7013.199999986682,\"end\":7063.39999998454},{\"bytes\":16384,\"start\":7063.39999998454,\"end\":7127.299999992829},{\"bytes\":1028096,\"start\":7127.299999992829,\"end\":7177.900000009686},{\"bytes\":16384,\"start\":7177.900000009686,\"end\":7236.199999984819},{\"bytes\":1032192,\"start\":7236.199999984819,\"end\":7286.399999982677},{\"bytes\":16384,\"start\":7286.399999982677,\"end\":7342.30000001844},{\"bytes\":995328,\"start\":7342.30000001844,\"end\":7392.400000011548},{\"bytes\":49152,\"start\":7392.400000011548,\"end\":7442.800000018906},{\"bytes\":872448,\"start\":7442.800000018906,\"end\":7493.100000021514},{\"bytes\":212992,\"start\":7493.100000021514,\"end\":7543.200000014622},{\"bytes\":487424,\"start\":7543.200000014622,\"end\":7559.799999988172},{\"bytes\":0,\"start\":7559.799999988172,\"end\":7559.899999992922}],\"id\":5893066632448035,\"sequence\":29,\"time\":1517804329863,\"duration\":2807,\"sessionId\":5893066448443942},{\"oca\":\"ipv4-c239-atl001-ix.1.oca.nflxvideo.net\",\"range\":26214400,\"requestUrl\":\"https://ipv4-c239-atl001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=iZQ_W8ajF3uG3hBZw2VGxDnbBWc\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066448443942,\"sequence\":24,\"time\":1517804327056},1],[1],[{\"oca\":\"ipv4-c092-was001-ix.1.oca.nflxvideo.net\",\"reason\":\"inactive\",\"result\":\"stop\",\"type\":[\"SessionCancelled\",\"SessionEnded\"],\"measurements\":[{\"bytes\":16384,\"start\":5430.300000007264,\"end\":5512.300000002142},{\"bytes\":1015808,\"start\":5512.300000002142,\"end\":5562.60000000475},{\"bytes\":278528,\"start\":5562.60000000475,\"end\":5612.900000007357},{\"bytes\":753664,\"start\":5612.900000007357,\"end\":5663.200000009965},{\"bytes\":192512,\"start\":5663.200000009965,\"end\":5713.400000007823},{\"bytes\":819200,\"start\":5713.400000007823,\"end\":5763.800000015181},{\"bytes\":106496,\"start\":5763.800000015181,\"end\":5814.0000000130385},{\"bytes\":933888,\"start\":5814.0000000130385,\"end\":5864.599999971688},{\"bytes\":98304,\"start\":5864.599999971688,\"end\":5914.799999969546},{\"bytes\":937984,\"start\":5914.799999969546,\"end\":5964.999999967404},{\"bytes\":245760,\"start\":5964.999999967404,\"end\":6015.199999965262},{\"bytes\":684032,\"start\":6015.199999965262,\"end\":6065.899999986868},{\"bytes\":385024,\"start\":6065.899999986868,\"end\":6115.999999979977},{\"bytes\":393216,\"start\":6115.999999979977,\"end\":6166.099999973085},{\"bytes\":442368,\"start\":6166.099999973085,\"end\":6216.299999970943},{\"bytes\":196608,\"start\":6216.299999970943,\"end\":6266.6999999783},{\"bytes\":753664,\"start\":6266.6999999783,\"end\":6316.899999976158},{\"bytes\":274432,\"start\":6316.899999976158,\"end\":6367.099999974016},{\"bytes\":606208,\"start\":6367.099999974016,\"end\":6417.299999971874},{\"bytes\":339968,\"start\":6417.299999971874,\"end\":6467.599999974482},{\"bytes\":491520,\"start\":6467.599999974482,\"end\":6517.8999999770895},{\"bytes\":438272,\"start\":6517.8999999770895,\"end\":6568.099999974947},{\"bytes\":540672,\"start\":6568.099999974947,\"end\":6618.299999972805},{\"bytes\":409600,\"start\":6618.299999972805,\"end\":6668.399999965914},{\"bytes\":499712,\"start\":6668.399999965914,\"end\":6718.599999963772},{\"bytes\":524288,\"start\":6718.599999963772,\"end\":6768.899999966379},{\"bytes\":77824,\"start\":6768.899999966379,\"end\":6819.099999964237},{\"bytes\":917504,\"start\":6819.099999964237,\"end\":6869.300000020303},{\"bytes\":28672,\"start\":6869.300000020303,\"end\":6919.500000018161},{\"bytes\":966656,\"start\":6919.500000018161,\"end\":6969.700000016019},{\"bytes\":114688,\"start\":6969.700000016019,\"end\":7019.800000009127},{\"bytes\":593920,\"start\":7019.800000009127,\"end\":7070.100000011735},{\"bytes\":393216,\"start\":7070.100000011735,\"end\":7120.300000009593},{\"bytes\":311296,\"start\":7120.300000009593,\"end\":7170.500000007451},{\"bytes\":720896,\"start\":7170.500000007451,\"end\":7220.7000000053085},{\"bytes\":192512,\"start\":7220.7000000053085,\"end\":7271.100000012666},{\"bytes\":835584,\"start\":7271.100000012666,\"end\":7321.200000005774},{\"bytes\":221184,\"start\":7321.200000005774,\"end\":7371.400000003632},{\"bytes\":819200,\"start\":7371.400000003632,\"end\":7421.80000001099},{\"bytes\":159744,\"start\":7421.80000001099,\"end\":7472.599999979138},{\"bytes\":868352,\"start\":7472.599999979138,\"end\":7523.099999991246},{\"bytes\":483328,\"start\":7523.099999991246,\"end\":7573.199999984354},{\"bytes\":540672,\"start\":7573.199999984354,\"end\":7623.299999977462},{\"bytes\":335872,\"start\":7623.299999977462,\"end\":7674.300000013318},{\"bytes\":671744,\"start\":7674.300000013318,\"end\":7724.500000011176},{\"bytes\":278528,\"start\":7724.500000011176,\"end\":7774.700000009034},{\"bytes\":753664,\"start\":7774.700000009034,\"end\":7824.900000006892},{\"bytes\":221184,\"start\":7824.900000006892,\"end\":7875.10000000475},{\"bytes\":802816,\"start\":7875.10000000475,\"end\":7925.300000002608},{\"bytes\":286720,\"start\":7925.300000002608,\"end\":7975.600000005215},{\"bytes\":737280,\"start\":7975.600000005215,\"end\":8025.699999998324}],\"id\":5893066707022906,\"sequence\":31,\"time\":1517804330358,\"duration\":2625,\"sessionId\":5893066526745444},{\"oca\":\"ipv4-c092-was001-ix.1.oca.nflxvideo.net\",\"range\":26214400,\"requestUrl\":\"https://ipv4-c092-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=pMxQeRpucF5kptf7w9wVC8l4d2w\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066526745444,\"sequence\":26,\"time\":1517804327733},1],[{\"oca\":\"ipv4-c068-was001-ix.1.oca.nflxvideo.net\",\"reason\":\"inactive\",\"result\":\"stop\",\"type\":[\"SessionCancelled\",\"SessionEnded\"],\"measurements\":[{\"bytes\":16384,\"start\":6900.099999969825,\"end\":6979.899999976624},{\"bytes\":1015808,\"start\":6979.899999976624,\"end\":7030.299999983981},{\"bytes\":32768,\"start\":7030.299999983981,\"end\":7083.299999998417},{\"bytes\":999424,\"start\":7083.299999998417,\"end\":7133.499999996275},{\"bytes\":16384,\"start\":7133.499999996275,\"end\":7193.800000008196},{\"bytes\":1019904,\"start\":7193.800000008196,\"end\":7244.000000006054},{\"bytes\":12288,\"start\":7244.000000006054,\"end\":7298.59999998007},{\"bytes\":1007616,\"start\":7298.59999998007,\"end\":7348.799999977928},{\"bytes\":16384,\"start\":7348.799999977928,\"end\":7405.299999983981},{\"bytes\":933888,\"start\":7405.299999983981,\"end\":7455.699999991339},{\"bytes\":16384,\"start\":7455.699999991339,\"end\":7505.899999989197},{\"bytes\":942080,\"start\":7505.899999989197,\"end\":7556.400000001304},{\"bytes\":442368,\"start\":7556.400000001304,\"end\":7606.499999994412},{\"bytes\":589824,\"start\":7606.499999994412,\"end\":7656.69999999227},{\"bytes\":344064,\"start\":7656.69999999227,\"end\":7706.899999990128},{\"bytes\":671744,\"start\":7706.899999990128,\"end\":7757.199999992736},{\"bytes\":212992,\"start\":7757.199999992736,\"end\":7808.199999970384},{\"bytes\":757760,\"start\":7808.199999970384,\"end\":7858.399999968242},{\"bytes\":225280,\"start\":7858.399999968242,\"end\":7909.099999989849},{\"bytes\":704512,\"start\":7909.099999989849,\"end\":7959.199999982957},{\"bytes\":180224,\"start\":7959.199999982957,\"end\":8009.4999999855645}],\"id\":5893066715821292,\"sequence\":32,\"time\":1517804330358,\"duration\":1155,\"sessionId\":5893066591224141},{\"oca\":\"ipv4-c068-was001-ix.1.oca.nflxvideo.net\",\"range\":26214400,\"requestUrl\":\"https://ipv4-c068-was001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=eR5CEW8PQd2mbYizZSFyxWQTSIc\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066591224141,\"sequence\":28,\"time\":1517804329203},1],[{\"oca\":\"ipv4-c239-atl001-ix.1.oca.nflxvideo.net\",\"reason\":\"inactive\",\"result\":\"stop\",\"type\":[\"SessionCancelled\",\"SessionEnded\"],\"measurements\":[{\"bytes\":16384,\"start\":7560.5999999679625,\"end\":7632.099999987986},{\"bytes\":1015808,\"start\":7632.099999987986,\"end\":7682.399999990594},{\"bytes\":16384,\"start\":7682.399999990594,\"end\":7734.500000020489},{\"bytes\":1032192,\"start\":7734.500000020489,\"end\":7784.799999964889},{\"bytes\":16384,\"start\":7784.799999964889,\"end\":7837.300000013784},{\"bytes\":1015808,\"start\":7837.300000013784,\"end\":7887.400000006892},{\"bytes\":16384,\"start\":7887.400000006892,\"end\":7940.100000007078},{\"bytes\":1028096,\"start\":7940.100000007078,\"end\":7990.200000000186},{\"bytes\":8192,\"start\":7990.200000000186,\"end\":8045.899999968242}],\"id\":5893066749067819,\"sequence\":33,\"time\":1517804330359,\"duration\":495,\"sessionId\":5893066655574116},{\"oca\":\"ipv4-c239-atl001-ix.1.oca.nflxvideo.net\",\"range\":26214400,\"requestUrl\":\"https://ipv4-c239-atl001-ix.1.oca.nflxvideo.net/speedtest/range/0-26214400?c=us&n=33657&v=3&e=1517807923&t=iZQ_W8ajF3uG3hBZw2VGxDnbBWc\",\"type\":[\"Connection\",\"Session\"],\"id\":5893066655574116,\"sequence\":30,\"time\":1517804329864},1],[{\"start\":667.9000000003725,\"downloadStart\":934.499999973923,\"attempts\":1,\"numberOfTests\":1,\"stable\":true,\"speed\":229641927.43850166,\"result\":\"success\",\"type\":[\"SessionEnded\"],\"snapshots\":[{\"bytes\":133121,\"start\":935.1000000024214,\"end\":1093.4000000124797,\"time\":157.39999996731058},{\"bytes\":2348885.2366466885,\"start\":1093.4000000124797,\"end\":1246.099999989383,\"time\":152.6999999769032},{\"bytes\":8375184.192110767,\"start\":1246.099999989383,\"end\":1548.1000000145286,\"time\":302.0000000251457},{\"bytes\":3585285.8573388085,\"start\":1548.1000000145286,\"end\":1679.999999993015,\"time\":131.89999997848645},{\"bytes\":4855316.257140813,\"start\":1679.999999993015,\"end\":1830.7999999960884,\"time\":150.80000000307336},{\"bytes\":4491569.005024679,\"start\":1830.7999999960884,\"end\":1986.9000000180677,\"time\":156.1000000219792},{\"bytes\":4362023.591838154,\"start\":1986.9000000180677,\"end\":2139.3999999854714,\"time\":152.4999999674037},{\"bytes\":4323394.66963612,\"start\":2139.3999999854714,\"end\":2299.4999999646097,\"time\":160.09999997913837},{\"bytes\":4950227.905538525,\"start\":2299.4999999646097,\"end\":2450.200000021141,\"time\":150.70000005653128},{\"bytes\":4079491.964706297,\"start\":2450.200000021141,\"end\":2602.4999999790452,\"time\":152.29999995790422},{\"bytes\":5286894.826969588,\"start\":2602.4999999790452,\"end\":2766.6999999783,\"time\":164.19999999925494},{\"bytes\":3601465.832456293,\"start\":2766.6999999783,\"end\":2906.299999973271,\"time\":139.59999999497086},{\"bytes\":3758058.8671336756,\"start\":2906.299999973271,\"end\":3033.400000014808,\"time\":127.10000004153699},{\"bytes\":4815593.816400824,\"start\":3033.400000014808,\"end\":3193.599999998696,\"time\":160.19999998388812},{\"bytes\":4142145.3699300746,\"start\":3193.599999998696,\"end\":3359.500000020489,\"time\":165.90000002179295},{\"bytes\":5156916.75249554,\"start\":3359.500000020489,\"end\":3510.3999999701045,\"time\":150.89999994961545},{\"bytes\":4012009.053245268,\"start\":3510.3999999701045,\"end\":3663.799999980256,\"time\":153.40000001015142},{\"bytes\":4518142.84577808,\"start\":3663.799999980256,\"end\":3814.29999996908,\"time\":150.49999998882413},{\"bytes\":4622711.3636171855,\"start\":3814.29999996908,\"end\":3965.0999999721535,\"time\":150.80000000307336},{\"bytes\":4314896.627822131,\"start\":3965.0999999721535,\"end\":4117.599999997765,\"time\":152.50000002561137},{\"bytes\":3988964.285148051,\"start\":4117.599999997765,\"end\":4243.399999977555,\"time\":125.7999999797903},{\"bytes\":4113369.3584937574,\"start\":4243.399999977555,\"end\":4397.999999986496,\"time\":154.6000000089407},{\"bytes\":5067602.345517834,\"start\":4397.999999986496,\"end\":4551.999999966938,\"time\":153.99999998044223},{\"bytes\":4037033.0491097188,\"start\":4551.999999966938,\"end\":4708.700000017416,\"time\":156.70000005047768},{\"bytes\":4857258.755652405,\"start\":4708.700000017416,\"end\":4859.99999998603,\"time\":151.29999996861443},{\"bytes\":4208176.293603624,\"start\":4859.99999998603,\"end\":5010.499999974854,\"time\":150.49999998882413},{\"bytes\":4207077.993996372,\"start\":5010.499999974854,\"end\":5176.600000006147,\"time\":166.10000003129244},{\"bytes\":4491483.91177454,\"start\":5176.600000006147,\"end\":5330.599999986589,\"time\":153.99999998044223},{\"bytes\":2755130.558676291,\"start\":5330.599999986589,\"end\":5428.599999984726,\"time\":97.99999999813735},{\"bytes\":5093431.885424135,\"start\":5428.599999984726,\"end\":5612.900000007357,\"time\":182.60000000009313},{\"bytes\":4544229.864799953,\"start\":5612.900000007357,\"end\":5763.800000015181,\"time\":150.9000000078231},{\"bytes\":3949072.940961954,\"start\":5763.800000015181,\"end\":5914.799999969546,\"time\":150.9999999543652},{\"bytes\":4438510.818786753,\"start\":5914.799999969546,\"end\":6049.400000018068,\"time\":134.6000000485219},{\"bytes\":4030258.9310927372,\"start\":6049.400000018068,\"end\":6216.299999970943,\"time\":166.89999995287508},{\"bytes\":3491266.4892774196,\"start\":6216.299999970943,\"end\":6344.700000016019,\"time\":128.400000045076},{\"bytes\":4679986.051172294,\"start\":6344.700000016019,\"end\":6517.8999999770895,\"time\":173.19999996107072},{\"bytes\":4185513.9979584482,\"start\":6517.8999999770895,\"end\":6668.399999965914,\"time\":150.49999998882413},{\"bytes\":3395375.5852393713,\"start\":6668.399999965914,\"end\":6792.599999986123,\"time\":124.2000000202097},{\"bytes\":4285450.541898601,\"start\":6792.599999986123,\"end\":6951.000000000931,\"time\":158.40000001480803},{\"bytes\":4299830.989105545,\"start\":6951.000000000931,\"end\":7120.300000009593,\"time\":169.3000000086613},{\"bytes\":4293762.160275819,\"start\":7120.300000009593,\"end\":7271.100000012666,\"time\":150.80000000307336},{\"bytes\":3976851.487661082,\"start\":7271.100000012666,\"end\":7405.299999983981,\"time\":134.19999997131526},{\"bytes\":5019494.014352668,\"start\":7405.299999983981,\"end\":7556.400000001304,\"time\":151.1000000173226},{\"bytes\":3990836.6180422804,\"start\":7556.400000001304,\"end\":7706.899999990128,\"time\":150.49999998882413},{\"bytes\":4542873.485602268,\"start\":7706.899999990128,\"end\":7858.399999968242,\"time\":151.49999997811392},{\"bytes\":4407322.391450825,\"start\":7858.399999968242,\"end\":8009.4999999855645,\"time\":151.1000000173226}],\"progress\":[{\"speed\":6765997.460109127},{\"speed\":64031118.660901524},{\"speed\":141900871.48244986},{\"speed\":155295443.9474051},{\"speed\":172532789.84618312},{\"speed\":211807413.97303915},{\"speed\":229883612.70404676},{\"speed\":230157991.8276788},{\"speed\":238717542.75085974},{\"speed\":234684213.7174582},{\"speed\":238144240.14938593},{\"speed\":234529130.2545171},{\"speed\":234718149.37079796},{\"speed\":235327889.72874132},{\"speed\":231812716.1940051},{\"speed\":235240816.69556063},{\"speed\":233229591.3414168},{\"speed\":233718786.5210821},{\"speed\":234478883.62880427},{\"speed\":233970655.5615174},{\"speed\":234937420.72352442},{\"speed\":233681213.81476235},{\"speed\":235266837.71492976},{\"speed\":233757923.29987025},{\"speed\":234855563.63235238},{\"speed\":234351029.1855052},{\"speed\":232844113.32350925},{\"speed\":232864350.50285786},{\"speed\":232656363.01968074},{\"speed\":232214870.14116377},{\"speed\":232536424.00125572},{\"speed\":231704783.71732184},{\"speed\":232694005.195605},{\"speed\":231239729.6238889},{\"speed\":230862065.16326028},{\"speed\":230335738.44643068},{\"speed\":230098824.92647603},{\"speed\":229821912.95820984},{\"speed\":229419547.04987276},{\"speed\":228602777.7701517},{\"speed\":228580735.76094946},{\"speed\":228779784.81551868},{\"speed\":229730867.70064422},{\"speed\":229291412.97017017},{\"speed\":229551315.31687114}],\"id\":5893066790817933,\"sequence\":34,\"time\":1517804330370,\"duration\":7400,\"sessionId\":5893065746029588},{\"attempt\":1,\"type\":[\"Measure\",\"Session\"],\"id\":5893065746029588,\"sequence\":3,\"time\":1517804322970},1],[{\"start\":667.9000000003725,\"downloadStart\":934.499999973923,\"attempts\":1,\"numberOfTests\":1,\"stable\":true,\"speed\":229641927.43850166,\"result\":\"success\",\"pageLoad\":{\"navigationStart\":1517804322302,\"unloadEventStart\":0,\"unloadEventEnd\":0,\"redirectStart\":0,\"redirectEnd\":0,\"fetchStart\":1517804322567,\"domainLookupStart\":1517804322335,\"domainLookupEnd\":1517804322377,\"connectStart\":1517804322377,\"connectEnd\":1517804322428,\"secureConnectionStart\":1517804322392,\"requestStart\":1517804322428,\"responseStart\":1517804322445,\"responseEnd\":1517804322567,\"domLoading\":1517804322569,\"domInteractive\":1517804322972,\"domContentLoadedEventStart\":1517804322972,\"domContentLoadedEventEnd\":1517804322977,\"domComplete\":1517804323117,\"loadEventStart\":1517804323117,\"loadEventEnd\":1517804323118},\"type\":[\"SessionEnded\"],\"id\":5893066840747736,\"sequence\":35,\"time\":1517804330370,\"duration\":7400,\"sessionId\":5893065714669578},{\"numberOfTests\":1,\"type\":[\"SpeedTest\",\"Session\"],\"id\":5893065714669578,\"sequence\":2,\"time\":1517804322970}]],\"type\":\"CompactConsolidatedLoggingEnvelope\",\"version\":2,\"clientSendTime\":1517804330370}"
+          }
+        },
+        "response": {
+          "status": 202,
+          "statusText": "Accepted",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Mon, 05 Feb 2018 04:18:50 GMT"
+            },
+            {
+              "name": "Via",
+              "value": "1.1 i-03e60cea3aed285b0 (us-east-1)"
+            },
+            {
+              "name": "X-Netflix-From-Zuul",
+              "value": "true"
+            },
+            {
+              "name": "X-Netflix.proxy.execution-time",
+              "value": "64"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "1; mode=block; report=https://ichnaea.netflix.com/log/freeform/xssreport"
+            },
+            {
+              "name": "Server",
+              "value": "ichnaea i-0c60a259fdee856e3"
+            },
+            {
+              "name": "X-Netflix.nfstatus",
+              "value": "1_1"
+            },
+            {
+              "name": "Allow",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "Access-Control-Allow-Methods",
+              "value": "GET, POST, OPTIONS"
+            },
+            {
+              "name": "X-Originating-URL",
+              "value": "https://ichnaea.netflix.com/cl2"
+            },
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "https://fast.com"
+            },
+            {
+              "name": "Accept",
+              "value": "text/plain, text/html"
+            },
+            {
+              "name": "Access-Control-Allow-Credentials",
+              "value": "true"
+            },
+            {
+              "name": "X-Ichnaea",
+              "value": "~O=true~RL=1619"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/plain"
+            },
+            {
+              "name": "Access-Control-Allow-Headers",
+              "value": "Authorization,Content-Type,Accept,Cookie,X-Netflix.application.name,X-Netflix.application.version,X-Netflix.esn,X-Netflix.device.type,X-Netflix.certification.version,X-Netflix.request.uuid,X-Netflix.user.id,X-Netflix.oauth.consumer.key,X-Netflix.oauth.token,X-Netflix.ichnaea.request.type,debugRequest"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 998,
+          "bodySize": 0,
+          "_transferSize": 998
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 2.011976004112515,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.15199999324976998,
+          "wait": 85.06200002739206,
+          "receive": 1.7369999550282955,
+          "_blocked_queueing": 0.9759999811649323
+        },
+        "serverIPAddress": "54.210.245.62",
+        "connection": "368334",
+        "pageref": "page_10"
+      }
+    ]
+  }
+}
